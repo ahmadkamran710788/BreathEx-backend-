@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 9000;
 const app = express();
 const URL =
   "mongodb+srv://ahmadkamran710788:h71lLNpMHmxQxaHM@cluster0.ieeoda4.mongodb.net/?retryWrites=true&w=majority"; // Your MongoDB URL here
+const cookie = require("cookie-parser");
 
 // Import routes
 const authRouter = require("./routes/auth");
