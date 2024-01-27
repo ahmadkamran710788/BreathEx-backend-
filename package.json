@@ -10,8 +10,6 @@
   "author": "Ahmad",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs": "^4.12.0",
-    "@tensorflow/tfjs-converter": "^4.12.0",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
